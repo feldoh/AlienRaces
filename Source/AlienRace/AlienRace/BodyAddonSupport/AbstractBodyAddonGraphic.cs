@@ -7,7 +7,7 @@ using System.Linq;
 public abstract class AbstractBodyAddonGraphic : IBodyAddonGraphic
 {
     public string path;
-    public int  variantCount;
+    public int variantCount;
     
     // Not unused, users can define their own order in XML which takes priority.
     private List<AlienPartGenerator.BodyAddonPrioritization>   prioritization;
